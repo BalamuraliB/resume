@@ -1,5 +1,3 @@
-version 0.2
-
 phases:
   install:
     commands:
@@ -19,8 +17,8 @@ phases:
     commands:
       - echo building
       - ng build -- prod
-  artifacts:
-    files:
-      - "**/*"
-    discard-path: no
-    base-directory: dist/resume
+artifacts:
+  files:
+    - "**/*"
+  discard-path: no
+  base-directory: dist/resume
